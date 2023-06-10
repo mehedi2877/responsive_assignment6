@@ -1,0 +1,74 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+.avater img{
+	width: 100px;
+	height: 100px;
+	text-align: center;
+	border-radius: 100%;
+}
+body{
+	background-color:white;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-family: 'Poppins', sans-serif;
+	border-radius: 5px;
+}
+.button button{
+	padding:7px;
+	margin: 15px 0px;
+	border-radius: 0%;
+	font-size: 14px;
+	width: 255px;
+	background-color:#0C55FF;
+	pointer-events: fill;
+	border-radius: 15px;
+	border: none;
+	cursor: pointer;
+	font-family:'Poppins', sans-serif;
+	font-weight: 600;
+}
+.log-in-form{
+	width: 250px;
+	margin:50px auto;
+	padding: 80px;
+	border-spacing: 2px;
+	background-color: saturation(50%);
+	border-radius: 0%;
+	box-shadow:1px 1px 5px 5px;
+	font-family: sans-serif;
+	border-radius: 5px;
+
+}
+.avater{
+	text-align: center;
+}
+.log-in-form h1{
+	text-align: center;
+	font-size: 30px;
+	line-height: 1.7em;
+	font-weight: 900;
+	color: black;
+	font-family: monospace;
+}
+.form-group name{
+	font-size: 14px;
+}
+.form-group h3{
+	color: black;
+	font-size: 14px;
+	font-weight: 600;
+	display: block;
+	padding: 5px;
+}
+.form-control{
+	width: 96%;
+	padding: 5px;
+	font-size: 14px;
+	font-weight: 400;
+	border: 2px solid black;
+	background-color:white;
+	border-radius: 50px;
+}
